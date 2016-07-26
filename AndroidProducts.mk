@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cm_p9000.mk
+    $(LOCAL_DIR)/aicp_p9000.mk
