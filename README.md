@@ -57,3 +57,15 @@ This branch is for building CyanogenMod 13.0 (or Android Marshmallow 6.0 AOSP ba
  * Leskal
  * JonnyXDA
  * olegsvs
+ * 
+ 
+To build: 
+```
+repo init -u https://github.com/AICP/platform_manifest.git -b mm6.0
+
+repo sync
+
+. build/envsetup.sh
+
+time brunch p9000
+```
